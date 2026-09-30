@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎂 Felíz Cumpleaños Mi Amor 💕</title>
+    <meta
+      name="description"
+      content="Una página especial de cumpleaños llena de amor"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Theme Toggle -->
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      aria-label="Toggle dark/light theme"
+    >
+      <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Floating Hearts Container -->
+    <div id="floating-hearts" class="floating-hearts"></div>
+
+    <!-- Falling Roses Container -->
+    <div id="falling-roses" class="falling-roses"></div>
+
+    <!-- Music Toggle -->
+    <button id="music-toggle" class="music-toggle" aria-label="Toggle music">
+      <span>🎵</span>
+    </button>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section id="hero" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="birthday-cake-emoji">🎂</div>
+        <h1 class="hero-title animate-in">
+          Felíz cumpleaños mi chiquita de Papi
+        </h1>
+        <p class="hero-subtitle animate-in delay-1">
+          Que siga perdurando nuestro amor como el primer día que nació
+        </p>
+        <div class="hero-hearts animate-in delay-2">
+          <span>💕</span><span>🌹</span><span>💖</span><span>🌹</span
+          ><span>💕</span>
+        </div>
+        <div class="scroll-indicator animate-in delay-3">
+          <span>Desliza para ver nuestros momentos</span>
+          <div class="scroll-arrow">↓</div>
+        </div>
+      </div>
+      <!-- Cinnamoroll decorations with local images -->
+      <div class="cinnamoroll-hero cinnamoroll-left">
+        <img
+          src="cinnamoroll/swsof2bvkrmc1.webp"
+          alt="Cinnamoroll Happy Birthday"
+        />
+      </div>
+      <div class="cinnamoroll-hero cinnamoroll-right">
+        <img
+          src="cinnamoroll/swsof2bvkrmc1.webp"
+          alt="Cinnamoroll Happy Birthday"
+        />
+      </div>
+    </section>
+
+    <!-- ============ LOVE COUNTER SECTION ============ -->
+    <section id="love-counter" class="love-counter-section">
+      <div class="section-container">
+        <h2 class="section-title scroll-reveal">💝 Nuestro Amor 💝</h2>
+        <p class="love-text scroll-reveal">
+          Cada segundo contigo es un regalo del cielo
+        </p>
+        <div class="cinnamoroll-love-row scroll-reveal">
+          <div class="cinna-love-img">
+            <img
+              src="cinnamoroll/18da590b5abccf044a535acf35447d1b.webp"
+              alt="Cinnamoroll helado"
+            />
+          </div>
+          <div class="cinna-love-text">
+            <p>☁️ Cinnamoroll también celebra nuestro amor ☁️</p>
+            <div class="cinna-love-hearts">💕 💖 💕</div>
+          </div>
+          <div class="cinna-love-img">
+            <img
+              src="cinnamoroll/18da590b5abccf044a535acf35447d1b.webp"
+              alt="Cinnamoroll helado"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PHOTO GALLERY SECTION ============ -->
+    <section id="gallery" class="gallery-section">
+      <div class="section-container">
+        <h2 class="section-title scroll-reveal">
+          📸 Nuestros Momentos Juntos 📸
+        </h2>
+        <p class="gallery-subtitle scroll-reveal">
+          Cada foto guarda un recuerdo especial de nuestro amor
+        </p>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Photos will be inserted by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOVE LETTER SECTION ============ -->
+    <section id="love-letter" class="love-letter-section">
+      <div class="section-container">
+        <div class="letter-envelope scroll-reveal">
+          <div class="letter-content">
+            <div class="letter-header">
+              <span>💌</span>
+              <h2>Para mi amor</h2>
+              <span>💌</span>
+            </div>
+            <p>
+              Hoy es un día muy especial porque llegaste al mundo para llenar mi
+              vida de alegría, risas y mucho amor. Eres lo más bonito que me ha
+              pasado y cada día a tu lado es una aventura increíble.
+            </p>
+            <p>
+              Que este nuevo año de vida te traiga todas las bendiciones que
+              mereces, que se cumplan todos tus sueños y que siempre tengas esa
+              sonrisa que me enamora.
+            </p>
+            <p class="letter-signature">
+              Con todo mi amor, siempre tuyo: Rober💕
+            </p>
+            <p class="letter-signature2">
+              Toda tú eres bella, amor mío; no hay en ti defecto alguno.
+              <span class="letter-signature">Cantares 4:7</span>
+              <br />
+              Doy gracias a mi Dios cada vez que me acuerdo de ti.
+              <span class="letter-signature">Filipenses 1:3</span>
+              <br />
+              Querida hermana, pido a Dios que prosperes en todo y que tengas
+              salud, así como prosperas espiritualmente.
+              <br />
+              <span class="letter-signature">3 Juan 1:2</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CINNAMOROLL SECTION ============ -->
+    <section id="cinnamoroll" class="cinnamoroll-section">
+      <!-- Background pattern decoration -->
+      <div class="cinna-bg-pattern cinna-bg-pink">
+        <img src="cinnamoroll/84e9456ab52649ac55974925f5d2b661.webp" alt="" />
+      </div>
+      <div class="cinna-bg-pattern cinna-bg-blue">
+        <img
+          src="cinnamoroll/b13bba624c51a92fb996c1457967331c_600x600.webp"
+          alt=""
+        />
+      </div>
+      <div class="section-container">
+        <h2 class="section-title scroll-reveal">☁️ Cinnamoroll dice... ☁️</h2>
+
+        <!-- Cinnamoroll Birthday Showcase -->
+        <div class="cinna-showcase scroll-reveal">
+          <div class="cinna-showcase-img">
+            <img
+              src="cinnamoroll/free-cinnamoroll-happy-birthday-poster.webp"
+              alt="Cinnamoroll Happy Birthday"
+            />
+          </div>
+          <div class="cinna-showcase-img">
+            <img
+              src="cinnamoroll/swsof2bvkrmc1.webp"
+              alt="Cinnamoroll Birthday Strawberry"
+            />
+          </div>
+        </div>
+
+        <div class="cinnamoroll-cards scroll-reveal">
+          <div class="cinna-card">
+            <div class="cinna-card-img">
+              <img
+                src="cinnamoroll/18da590b5abccf044a535acf35447d1b.webp"
+                alt="Cinnamoroll helado"
+              />
+            </div>
+            <p>¡Felíz cumpleaños! Que tu día sea tan dulce como tú 🧁</p>
+          </div>
+          <div class="cinna-card">
+            <div class="cinna-card-img">
+              <img
+                src="cinnamoroll/18da590b5abccf044a535acf35447d1b.webp"
+                alt="Cinnamoroll helado"
+              />
+            </div>
+            <p>Eres la persona más especial del mundo entero 🌍💕</p>
+          </div>
+          <div class="cinna-card">
+            <div class="cinna-card-img">
+              <img
+                src="cinnamoroll/18da590b5abccf044a535acf35447d1b.webp"
+                alt="Cinnamoroll helado"
+              />
+            </div>
+            <p>Que hoy llueva amor y felicidad sobre ti 🌧️💖</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL MESSAGE ============ -->
+    <section id="final" class="final-section">
+      <!-- Floating Cinnamoroll decorations -->
+      <div class="final-cinna final-cinna-left">
+        <img
+          src="cinnamoroll/free-cinnamoroll-happy-birthday-poster.webp"
+          alt="Cinnamoroll Happy Birthday"
+        />
+      </div>
+      <div class="final-cinna final-cinna-right">
+        <img
+          src="cinnamoroll/18da590b5abccf044a535acf35447d1b.webp"
+          alt="Cinnamoroll"
+        />
+      </div>
+      <div class="section-container">
+        <div class="final-content scroll-reveal">
+          <div class="big-heart-container">
+            <div class="big-heart">❤️</div>
+          </div>
+          <h2 class="final-title">Te Amo con todo mi corazón</h2>
+          <p class="final-text">Felíz cumpleaños mi chiquita de Papi</p>
+          <p class="final-subtext">
+            Que siga perdurando nuestro amor como el primer día que nació
+          </p>
+          <div class="final-emojis">
+            <span>🌹</span><span>💕</span><span>🎂</span><span>💕</span
+            ><span>🌹</span>
+          </div>
+          <div class="sparkles">✨💖✨</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Modal -->
+    <div id="photo-modal" class="photo-modal">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <button class="modal-nav modal-prev" id="modal-prev">❮</button>
+      <button class="modal-nav modal-next" id="modal-next">❯</button>
+      <img id="modal-img" class="modal-img" src="" alt="Foto" />
+      <div class="modal-hearts">💕 💖 💕</div>
+    </div>
+
+    <!-- Hidden YouTube Player -->
+    <div
+      id="youtube-player-container"
+      style="
+        position: fixed;
+        top: -9999px;
+        left: -9999px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        pointer-events: none;
+      "
+    >
+      <div id="yt-player"></div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
